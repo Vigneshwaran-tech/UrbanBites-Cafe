@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — UrbanBites Café</title>
+  <meta name="description" content="See inside UrbanBites Café — our food, our space, and our moments. Browse our photo gallery.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#c8102e">
+  <link rel="canonical" href="https://example.com/urbanbites-cafe/gallery.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gallery — UrbanBites Café">
+  <meta property="og:description" content="Explore food, interiors, and guest moments from UrbanBites Café.">
+  <meta property="og:url" content="https://example.com/urbanbites-cafe/gallery.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1554679665-f5537f187268?w=1200&q=80">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gallery — UrbanBites Café">
+  <meta name="twitter:description" content="Explore food, interiors, and guest moments from UrbanBites Café.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1554679665-f5537f187268?w=1200&q=80">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">Urban<span>Bites</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html#reservation" class="btn btn-primary btn-nav">Book a Table</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header page-header-gallery">
+    <div>
+      <h1>Our Gallery</h1>
+      <p class="breadcrumb"><a href="index.html">Home</a> / Gallery</p>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="section gallery-section">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>A Taste Through the Lens</h2>
+        <p class="subtitle">Explore the flavors, ambiance, and moments that make UrbanBites unforgettable.</p>
+        <div class="divider"></div>
+      </div>
+
+      <!-- Gallery Filter Tabs -->
+      <div class="menu-tabs fade-up">
+        <button class="menu-tab active" data-gallery="all">All</button>
+        <button class="menu-tab" data-gallery="food">Food</button>
+        <button class="menu-tab" data-gallery="interior">Interior</button>
+        <button class="menu-tab" data-gallery="moments">Moments</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid gallery-grid-three" id="galleryGrid">
+
+        <!-- Food Photos -->
+        <div class="gallery-item fade-up gallery-item-featured" data-gallery="food">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80" alt="Gourmet dish presentation">
+        </div>
+
+        <div class="gallery-item fade-up" data-gallery="food">
+          <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" alt="Wood-fired pizza">
+        </div>
+
+        <div class="gallery-item fade-up" data-gallery="interior">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&q=80" alt="Restaurant interior">
+        </div>
+
+        <div class="gallery-item fade-up" data-gallery="food">
+          <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&q=80" alt="Smash burger">
+        </div>
+
+        <div class="gallery-item fade-up" data-gallery="moments">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80" alt="Fine dining ambiance">
+        </div>
+
+        <div class="gallery-item fade-up" data-gallery="food">
+          <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80" alt="Fresh salad">
+        </div>
+
+        <div class="gallery-item fade-up" data-gallery="interior">
+          <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80" alt="Bar area">
+        </div>
+
+        <div class="gallery-item fade-up" data-gallery="food">
+          <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=600&q=80" alt="Tiramisu dessert">
+        </div>
+
+        <div class="gallery-item fade-up" data-gallery="moments">
+          <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=600&q=80" alt="Chef at work">
+        </div>
+
+        <div class="gallery-item fade-up" data-gallery="interior">
+          <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=600&q=80" alt="Outdoor seating">
+        </div>
+
+        <div class="gallery-item fade-up" data-gallery="food">
+          <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&q=80" alt="Chocolate lava cake">
+        </div>
+
+        <div class="gallery-item fade-up" data-gallery="moments">
+          <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=600&q=80" alt="Restaurant atmosphere">
+        </div>
+
+        <div class="gallery-item fade-up" data-gallery="food">
+          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80" alt="Espresso coffee">
+        </div>
+
+        <div class="gallery-item fade-up" data-gallery="interior">
+          <img src="https://images.unsplash.com/photo-1559329007-40df8a9345d8?w=600&q=80" alt="Cozy interior">
+        </div>
+
+        <div class="gallery-item fade-up" data-gallery="food">
+          <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80" alt="Steak dinner">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox">&times;</button>
+    <img src="" alt="Gallery full view" id="lightboxImg">
+  </div>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Like What You See?</h2>
+      <p>Reserve a table and experience these flavors in person. Your perfect meal is waiting.</p>
+      <a href="index.html#reservation" class="btn btn-outline">Book Your Table</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">Urban<span>Bites</span></a>
+          <p>Serving fresh, bold, and flavorful food since 2010. Every dish is a celebration of quality ingredients and culinary passion.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul>
+            <li><a href="tel:+15551234567">+1 (555) 123-4567</a></li>
+            <li><a href="mailto:hello@urbanbitescafe.com">hello@urbanbitescafe.com</a></li>
+            <li>42 Flavor Street</li>
+            <li>Downtown, NY 10012</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Opening Hours</h4>
+          <div class="hours-item"><span>Monday - Friday</span><span>8AM - 10PM</span></div>
+          <div class="hours-item"><span>Saturday</span><span>9AM - 11PM</span></div>
+          <div class="hours-item"><span>Sunday</span><span>9AM - 11PM</span></div>
+          <div class="mt-20">
+            <a href="index.html#reservation" class="btn btn-primary btn-footer">Reserve Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 UrbanBites Café. All rights reserved.</p>
+        <p>Designed by <a href="#">SparkWeb</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/15551234567?text=Hi%20UrbanBites!%20I'd%20like%20to%20place%20an%20order."
+     class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Order via WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

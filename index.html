@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UrbanBites Café — Fresh Food, Bold Flavors</title>
+  <meta name="description" content="UrbanBites Café serves fresh, bold, and flavorful dishes made with locally sourced ingredients. Visit us for breakfast, lunch, and dinner.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#c8102e">
+  <link rel="canonical" href="https://example.com/urbanbites-cafe/index.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="UrbanBites Café — Fresh Food, Bold Flavors">
+  <meta property="og:description" content="UrbanBites Café serves fresh, bold, and flavorful dishes made with locally sourced ingredients.">
+  <meta property="og:url" content="https://example.com/urbanbites-cafe/index.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=80">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="UrbanBites Café — Fresh Food, Bold Flavors">
+  <meta name="twitter:description" content="UrbanBites Café serves fresh, bold, and flavorful dishes made with locally sourced ingredients.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=80">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "UrbanBites Café",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=80",
+      "telephone": "+1-555-123-4567",
+      "email": "hello@urbanbitescafe.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "42 Flavor Street",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10012",
+        "addressCountry": "US"
+      },
+      "servesCuisine": ["American", "Italian", "Cafe"],
+      "priceRange": "$$",
+      "url": "https://example.com/urbanbites-cafe/index.html"
+    }
+  </script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">Urban<span>Bites</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#reservation" class="btn btn-primary btn-nav">Book a Table</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="tagline">Welcome to UrbanBites</p>
+      <h1>Fresh Food,<br>Bold Flavors</h1>
+      <p>Experience the art of fine dining with locally sourced ingredients, crafted with passion and served with love.</p>
+      <div class="hero-buttons">
+        <a href="menu.html" class="btn btn-primary">Explore Our Menu</a>
+        <a href="#reservation" class="btn btn-outline">Book a Table</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlights -->
+  <section class="section highlights">
+    <div class="container">
+      <div class="highlights-grid">
+        <div class="highlight-card fade-up">
+          <div class="icon">🍳</div>
+          <h3>Fresh Ingredients</h3>
+          <p>We source only the freshest, locally grown ingredients to craft every dish on our menu.</p>
+        </div>
+        <div class="highlight-card fade-up">
+          <div class="icon">👨‍🍳</div>
+          <h3>Expert Chefs</h3>
+          <p>Our world-class chefs bring years of culinary experience and creativity to your plate.</p>
+        </div>
+        <div class="highlight-card fade-up">
+          <div class="icon">🚚</div>
+          <h3>Fast Delivery</h3>
+          <p>Can't make it in? We deliver right to your doorstep — hot, fresh, and on time.</p>
+        </div>
+        <div class="highlight-card fade-up">
+          <div class="icon">🌿</div>
+          <h3>Organic Options</h3>
+          <p>Enjoy a wide selection of organic and health-conscious meals for every dietary need.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Menu Items -->
+  <section class="section menu-section" id="menu-preview">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>Our Popular Dishes</h2>
+        <p class="subtitle">Taste our most-loved creations — handpicked favorites from our full menu.</p>
+        <div class="divider"></div>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-card fade-up">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&q=80" alt="Classic Smash Burger">
+          </div>
+          <div class="menu-card-body">
+            <h3>Classic Smash Burger</h3>
+            <p class="description">Double-smashed beef patties with cheddar, caramelized onions, and our secret sauce.</p>
+            <div class="price-row">
+              <span class="price">$12.99</span>
+              <span class="badge">Bestseller</span>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card fade-up">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80" alt="Garden Fresh Salad">
+          </div>
+          <div class="menu-card-body">
+            <h3>Garden Fresh Salad</h3>
+            <p class="description">Crisp greens, cherry tomatoes, avocado, and citrus vinaigrette dressing.</p>
+            <div class="price-row">
+              <span class="price">$9.49</span>
+              <span class="badge">Healthy</span>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card fade-up">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" alt="Wood-Fired Pizza">
+          </div>
+          <div class="menu-card-body">
+            <h3>Wood-Fired Margherita</h3>
+            <p class="description">Hand-tossed dough, San Marzano tomatoes, fresh mozzarella, and basil.</p>
+            <div class="price-row">
+              <span class="price">$14.99</span>
+              <span class="badge">Popular</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-50">
+        <a href="menu.html" class="btn btn-primary">View Full Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Story Preview -->
+  <section class="section about-section" id="about-preview">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image fade-up">
+          <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80" alt="Inside UrbanBites Café">
+          <div class="experience-badge">
+            <div class="number">15+</div>
+            <div class="label">Years of<br>Experience</div>
+          </div>
+        </div>
+        <div class="about-content fade-up">
+          <h2>Our Story & Passion</h2>
+          <p>Founded in 2010, UrbanBites Café began as a small family kitchen with a big dream — to serve bold, honest food that brings people together.</p>
+          <p>Every dish tells a story. From our hand-picked ingredients to our carefully crafted recipes, we believe food should be an experience, not just a meal.</p>
+          <div class="about-stats">
+            <div class="about-stat">
+              <div class="stat-num">50+</div>
+              <div class="stat-label">Menu Items</div>
+            </div>
+            <div class="about-stat">
+              <div class="stat-num">15K+</div>
+              <div class="stat-label">Happy Customers</div>
+            </div>
+            <div class="about-stat">
+              <div class="stat-num">12</div>
+              <div class="stat-label">Awards Won</div>
+            </div>
+          </div>
+          <div class="mt-30">
+            <a href="about.html" class="btn btn-primary">Read Our Full Story</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chef Section -->
+  <section class="section chef-section">
+    <div class="container">
+      <div class="chef-grid">
+        <div class="chef-content fade-up">
+          <h2>Meet Chef Marco</h2>
+          <p class="chef-title">Head Chef & Co-founder</p>
+          <p>With over 20 years of culinary experience across Italy, France, and New York, Chef Marco brings a world-class touch to every UrbanBites creation.</p>
+          <p>His philosophy is simple: let the ingredients speak. Fresh, seasonal, and always cooked with heart.</p>
+          <blockquote>
+            "Great food isn't about complexity — it's about soul, quality, and the love you put on every plate."
+          </blockquote>
+        </div>
+        <div class="chef-image fade-up">
+          <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=800&q=80" alt="Chef Marco">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section testimonials-section">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>What Our Guests Say</h2>
+        <p class="subtitle">Real words from real people who've experienced the UrbanBites difference.</p>
+        <div class="divider"></div>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card fade-up">
+          <div class="stars">★★★★★</div>
+          <p>"Absolutely incredible experience! The Smash Burger is the best I've ever had. The ambiance is cozy and the staff is so friendly."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">SA</div>
+            <div class="reviewer-info">
+              <h4>Sarah Anderson</h4>
+              <span>Food Blogger</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card fade-up">
+          <div class="stars">★★★★★</div>
+          <p>"We booked for our anniversary and it was perfect. The food, the service, the vibe — everything was on point. Will definitely come back!"</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">MK</div>
+            <div class="reviewer-info">
+              <h4>Michael Kim</h4>
+              <span>Regular Customer</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card fade-up">
+          <div class="stars">★★★★★</div>
+          <p>"The best brunch spot in the city. Their organic options are amazing, and the fresh juices are to die for. Highly recommend!"</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">LP</div>
+            <div class="reviewer-info">
+              <h4>Lisa Patel</h4>
+              <span>Health Enthusiast</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservation Section -->
+  <section class="section reservation-section" id="reservation">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>Reserve Your Table</h2>
+        <p class="subtitle">Book your spot and let us prepare a memorable dining experience for you.</p>
+        <div class="divider"></div>
+      </div>
+      <div class="reservation-grid">
+        <div class="reservation-info fade-up">
+          <h3>Visit Us Today</h3>
+          <p>Whether it's a romantic dinner, family gathering, or a casual brunch with friends — we have the perfect table waiting for you.</p>
+          <div class="reservation-details">
+            <div class="detail-item">
+              <div class="detail-icon">📍</div>
+              <div class="detail-text">
+                <h4>Location</h4>
+                <p>42 Flavor Street, Downtown, NY 10012</p>
+              </div>
+            </div>
+            <div class="detail-item">
+              <div class="detail-icon">📞</div>
+              <div class="detail-text">
+                <h4>Phone</h4>
+                <p>+1 (555) 123-4567</p>
+              </div>
+            </div>
+            <div class="detail-item">
+              <div class="detail-icon">🕐</div>
+              <div class="detail-text">
+                <h4>Opening Hours</h4>
+                <p>Mon - Fri: 8:00 AM - 10:00 PM<br>Sat - Sun: 9:00 AM - 11:00 PM</p>
+              </div>
+            </div>
+            <div class="detail-item">
+              <div class="detail-icon">✉️</div>
+              <div class="detail-text">
+                <h4>Email</h4>
+                <p>hello@urbanbitescafe.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reservation-form fade-up">
+          <h3>Book a Table</h3>
+          <form id="reservationForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="resName">Full Name</label>
+                <input type="text" id="resName" placeholder="John Doe" required>
+              </div>
+              <div class="form-group">
+                <label for="resPhone">Phone Number</label>
+                <input type="tel" id="resPhone" placeholder="+1 (555) 000-0000" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="resDate">Date</label>
+                <input type="date" id="resDate" required>
+              </div>
+              <div class="form-group">
+                <label for="resTime">Time</label>
+                <input type="time" id="resTime" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="resGuests">Number of Guests</label>
+                <select id="resGuests" required>
+                  <option value="">Select guests</option>
+                  <option value="1">1 Person</option>
+                  <option value="2">2 People</option>
+                  <option value="3">3 People</option>
+                  <option value="4">4 People</option>
+                  <option value="5">5 People</option>
+                  <option value="6">6+ People</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="resOccasion">Occasion</label>
+                <select id="resOccasion">
+                  <option value="">Select occasion</option>
+                  <option value="birthday">Birthday</option>
+                  <option value="anniversary">Anniversary</option>
+                  <option value="date">Date Night</option>
+                  <option value="business">Business Dinner</option>
+                  <option value="casual">Casual Dining</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="resNote">Special Requests</label>
+              <textarea id="resNote" rows="3" placeholder="Any allergies, seating preferences, etc."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Reserve Now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Map -->
+  <section class="map-section">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9503398796587!2d-73.9998!3d40.7282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQzJzQxLjUiTiA3M8KwNTknNTkuMyJX!5e0!3m2!1sen!2sus!4v1234567890"
+      allowfullscreen="" loading="lazy"
+      title="UrbanBites Café Location"></iframe>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">Urban<span>Bites</span></a>
+          <p>Serving fresh, bold, and flavorful food since 2010. Every dish is a celebration of quality ingredients and culinary passion.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul>
+            <li><a href="tel:+15551234567">+1 (555) 123-4567</a></li>
+            <li><a href="mailto:hello@urbanbitescafe.com">hello@urbanbitescafe.com</a></li>
+            <li>42 Flavor Street</li>
+            <li>Downtown, NY 10012</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Opening Hours</h4>
+          <div class="hours-item"><span>Monday - Friday</span><span>8AM - 10PM</span></div>
+          <div class="hours-item"><span>Saturday</span><span>9AM - 11PM</span></div>
+          <div class="hours-item"><span>Sunday</span><span>9AM - 11PM</span></div>
+          <div class="mt-20">
+            <a href="#reservation" class="btn btn-primary btn-footer">Reserve Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 UrbanBites Café. All rights reserved.</p>
+        <p>Designed by <a href="#">SparkWeb</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/15551234567?text=Hi%20UrbanBites!%20I'd%20like%20to%20place%20an%20order."
+     class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Order via WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

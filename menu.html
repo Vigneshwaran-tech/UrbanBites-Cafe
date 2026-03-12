@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Menu — UrbanBites Café</title>
+  <meta name="description" content="Explore the UrbanBites Café menu — burgers, salads, pizzas, pastas, desserts, and beverages crafted with fresh ingredients.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#c8102e">
+  <link rel="canonical" href="https://example.com/urbanbites-cafe/menu.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Our Menu — UrbanBites Café">
+  <meta property="og:description" content="Explore burgers, pizzas, salads, desserts, and drinks at UrbanBites Café.">
+  <meta property="og:url" content="https://example.com/urbanbites-cafe/menu.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Our Menu — UrbanBites Café">
+  <meta name="twitter:description" content="Explore burgers, pizzas, salads, desserts, and drinks at UrbanBites Café.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">Urban<span>Bites</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html#reservation" class="btn btn-primary btn-nav">Book a Table</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div>
+      <h1>Our Menu</h1>
+      <p class="breadcrumb"><a href="index.html">Home</a> / Menu</p>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="section menu-section">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>Explore Our Flavors</h2>
+        <p class="subtitle">From bold burgers to fresh salads and decadent desserts — there's something for everyone.</p>
+        <div class="divider"></div>
+      </div>
+
+      <!-- Menu Tabs -->
+      <div class="menu-tabs fade-up">
+        <button class="menu-tab active" data-category="all">All</button>
+        <button class="menu-tab" data-category="starters">Starters</button>
+        <button class="menu-tab" data-category="mains">Mains</button>
+        <button class="menu-tab" data-category="pizza">Pizza</button>
+        <button class="menu-tab" data-category="salads">Salads</button>
+        <button class="menu-tab" data-category="desserts">Desserts</button>
+        <button class="menu-tab" data-category="drinks">Drinks</button>
+      </div>
+
+      <!-- Menu Grid -->
+      <div class="menu-grid" id="menuGrid">
+
+        <!-- Starters -->
+        <div class="menu-card fade-up" data-category="starters">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1541014741259-de529411b96a?w=600&q=80" alt="Bruschetta">
+          </div>
+          <div class="menu-card-body">
+            <h3>Classic Bruschetta</h3>
+            <p class="description">Toasted ciabatta topped with fresh tomatoes, basil, garlic, and extra virgin olive oil.</p>
+            <div class="price-row">
+              <span class="price">$7.99</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-up" data-category="starters">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=600&q=80" alt="Garlic Bread">
+          </div>
+          <div class="menu-card-body">
+            <h3>Cheesy Garlic Bread</h3>
+            <p class="description">Homemade garlic bread loaded with mozzarella and parmesan, baked until golden.</p>
+            <div class="price-row">
+              <span class="price">$6.49</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-up" data-category="starters">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1626200419199-391ae4be7a41?w=600&q=80" alt="Soup of the Day">
+          </div>
+          <div class="menu-card-body">
+            <h3>Soup of the Day</h3>
+            <p class="description">Chef's daily creation made with seasonal vegetables and served with artisan bread.</p>
+            <div class="price-row">
+              <span class="price">$5.99</span>
+              <span class="badge">Daily Special</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mains -->
+        <div class="menu-card fade-up" data-category="mains">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&q=80" alt="Classic Smash Burger">
+          </div>
+          <div class="menu-card-body">
+            <h3>Classic Smash Burger</h3>
+            <p class="description">Double-smashed beef patties with cheddar, caramelized onions, and secret sauce.</p>
+            <div class="price-row">
+              <span class="price">$12.99</span>
+              <span class="badge">Bestseller</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-up" data-category="mains">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1432139509613-5c4255a1d1f3?w=600&q=80" alt="Grilled Salmon">
+          </div>
+          <div class="menu-card-body">
+            <h3>Grilled Salmon Fillet</h3>
+            <p class="description">Atlantic salmon grilled to perfection with lemon butter sauce and seasonal veggies.</p>
+            <div class="price-row">
+              <span class="price">$18.99</span>
+              <span class="badge">Chef's Pick</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-up" data-category="mains">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=600&q=80" alt="Chicken Parmesan">
+          </div>
+          <div class="menu-card-body">
+            <h3>Chicken Parmesan</h3>
+            <p class="description">Crispy breaded chicken breast topped with marinara and melted mozzarella.</p>
+            <div class="price-row">
+              <span class="price">$15.49</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-up" data-category="mains">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80" alt="Ribeye Steak">
+          </div>
+          <div class="menu-card-body">
+            <h3>Ribeye Steak</h3>
+            <p class="description">12oz prime ribeye, chargrilled to your preference, served with truffle fries.</p>
+            <div class="price-row">
+              <span class="price">$28.99</span>
+              <span class="badge">Premium</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pizza -->
+        <div class="menu-card fade-up" data-category="pizza">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" alt="Margherita Pizza">
+          </div>
+          <div class="menu-card-body">
+            <h3>Wood-Fired Margherita</h3>
+            <p class="description">Hand-tossed dough, San Marzano tomatoes, fresh mozzarella, and basil.</p>
+            <div class="price-row">
+              <span class="price">$14.99</span>
+              <span class="badge">Popular</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-up" data-category="pizza">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&q=80" alt="Pepperoni Pizza">
+          </div>
+          <div class="menu-card-body">
+            <h3>Pepperoni Supreme</h3>
+            <p class="description">Loaded with spicy pepperoni, mozzarella, and our signature tomato sauce.</p>
+            <div class="price-row">
+              <span class="price">$15.99</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-up" data-category="pizza">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=80" alt="BBQ Chicken Pizza">
+          </div>
+          <div class="menu-card-body">
+            <h3>BBQ Chicken Pizza</h3>
+            <p class="description">Smoky BBQ sauce, grilled chicken, red onion, cilantro, and gouda cheese.</p>
+            <div class="price-row">
+              <span class="price">$16.49</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Salads -->
+        <div class="menu-card fade-up" data-category="salads">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80" alt="Garden Fresh Salad">
+          </div>
+          <div class="menu-card-body">
+            <h3>Garden Fresh Salad</h3>
+            <p class="description">Crisp greens, cherry tomatoes, avocado, and citrus vinaigrette.</p>
+            <div class="price-row">
+              <span class="price">$9.49</span>
+              <span class="badge">Healthy</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-up" data-category="salads">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=600&q=80" alt="Caesar Salad">
+          </div>
+          <div class="menu-card-body">
+            <h3>Classic Caesar</h3>
+            <p class="description">Romaine hearts, parmesan, croutons, and our creamy Caesar dressing.</p>
+            <div class="price-row">
+              <span class="price">$10.49</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Desserts -->
+        <div class="menu-card fade-up" data-category="desserts">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=600&q=80" alt="Tiramisu">
+          </div>
+          <div class="menu-card-body">
+            <h3>Classic Tiramisu</h3>
+            <p class="description">Layers of coffee-soaked ladyfingers with mascarpone cream and cocoa dusting.</p>
+            <div class="price-row">
+              <span class="price">$8.99</span>
+              <span class="badge">Must Try</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-up" data-category="desserts">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&q=80" alt="Chocolate Lava Cake">
+          </div>
+          <div class="menu-card-body">
+            <h3>Chocolate Lava Cake</h3>
+            <p class="description">Warm, rich chocolate cake with a molten center, served with vanilla ice cream.</p>
+            <div class="price-row">
+              <span class="price">$9.99</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-up" data-category="desserts">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&q=80" alt="Crème Brûlée">
+          </div>
+          <div class="menu-card-body">
+            <h3>Crème Brûlée</h3>
+            <p class="description">Silky vanilla custard with a perfectly caramelized sugar crust.</p>
+            <div class="price-row">
+              <span class="price">$7.99</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Drinks -->
+        <div class="menu-card fade-up" data-category="drinks">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80" alt="Espresso">
+          </div>
+          <div class="menu-card-body">
+            <h3>Artisan Espresso</h3>
+            <p class="description">Single-origin espresso, perfectly extracted for a bold and smooth experience.</p>
+            <div class="price-row">
+              <span class="price">$3.99</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-up" data-category="drinks">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=600&q=80" alt="Fresh Juice">
+          </div>
+          <div class="menu-card-body">
+            <h3>Fresh Pressed Juice</h3>
+            <p class="description">Choose from orange, apple, watermelon, or our signature green detox blend.</p>
+            <div class="price-row">
+              <span class="price">$5.49</span>
+              <span class="badge">Refreshing</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-up" data-category="drinks">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600&q=80" alt="Smoothie Bowl">
+          </div>
+          <div class="menu-card-body">
+            <h3>Berry Smoothie</h3>
+            <p class="description">A refreshing blend of mixed berries, banana, yogurt, and honey.</p>
+            <div class="price-row">
+              <span class="price">$6.99</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Hungry Yet?</h2>
+      <p>Order directly via WhatsApp or visit us for the full experience. We can't wait to serve you!</p>
+      <a href="https://wa.me/15551234567?text=Hi%20UrbanBites!%20I'd%20like%20to%20place%20an%20order." class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+      </a>
+      <a href="index.html#reservation" class="btn btn-outline">Book a Table</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">Urban<span>Bites</span></a>
+          <p>Serving fresh, bold, and flavorful food since 2010. Every dish is a celebration of quality ingredients and culinary passion.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul>
+            <li><a href="tel:+15551234567">+1 (555) 123-4567</a></li>
+            <li><a href="mailto:hello@urbanbitescafe.com">hello@urbanbitescafe.com</a></li>
+            <li>42 Flavor Street</li>
+            <li>Downtown, NY 10012</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Opening Hours</h4>
+          <div class="hours-item"><span>Monday - Friday</span><span>8AM - 10PM</span></div>
+          <div class="hours-item"><span>Saturday</span><span>9AM - 11PM</span></div>
+          <div class="hours-item"><span>Sunday</span><span>9AM - 11PM</span></div>
+          <div class="mt-20">
+            <a href="index.html#reservation" class="btn btn-primary btn-footer">Reserve Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 UrbanBites Café. All rights reserved.</p>
+        <p>Designed by <a href="#">SparkWeb</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/15551234567?text=Hi%20UrbanBites!%20I'd%20like%20to%20place%20an%20order."
+     class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Order via WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

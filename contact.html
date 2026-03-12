@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — UrbanBites Café</title>
+  <meta name="description" content="Get in touch with UrbanBites Café. Visit us, call us, or send us a message — we'd love to hear from you.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#c8102e">
+  <link rel="canonical" href="https://example.com/urbanbites-cafe/contact.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact Us — UrbanBites Café">
+  <meta property="og:description" content="Contact UrbanBites Café for reservations, catering, and general inquiries.">
+  <meta property="og:url" content="https://example.com/urbanbites-cafe/contact.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1559329007-40df8a9345d8?w=1200&q=80">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact Us — UrbanBites Café">
+  <meta name="twitter:description" content="Contact UrbanBites Café for reservations, catering, and general inquiries.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1559329007-40df8a9345d8?w=1200&q=80">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">Urban<span>Bites</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="index.html#reservation" class="btn btn-primary btn-nav">Book a Table</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header page-header-contact">
+    <div>
+      <h1>Contact Us</h1>
+      <p class="breadcrumb"><a href="index.html">Home</a> / Contact</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact-section">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>Get In Touch</h2>
+        <p class="subtitle">Have a question, feedback, or just want to say hi? We'd love to hear from you.</p>
+        <div class="divider"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info fade-up">
+          <h3>We're Here For You</h3>
+          <p>Whether you want to make a reservation, inquire about catering, or just tell us how much you loved the Smash Burger — drop us a line!</p>
+          <div class="contact-cards">
+            <div class="contact-card">
+              <div class="card-icon">📍</div>
+              <div>
+                <h4>Visit Us</h4>
+                <p>42 Flavor Street, Downtown, NY 10012</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="card-icon">📞</div>
+              <div>
+                <h4>Call Us</h4>
+                <p><a href="tel:+15551234567">+1 (555) 123-4567</a></p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="card-icon">✉️</div>
+              <div>
+                <h4>Email Us</h4>
+                <p><a href="mailto:hello@urbanbitescafe.com">hello@urbanbitescafe.com</a></p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="card-icon">🕐</div>
+              <div>
+                <h4>Opening Hours</h4>
+                <p>Mon-Fri: 8AM - 10PM<br>Sat-Sun: 9AM - 11PM</p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-30">
+            <a href="https://wa.me/15551234567?text=Hi%20UrbanBites!%20I%20have%20a%20question." class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+        <div class="contact-form fade-up">
+          <h3>Send Us a Message</h3>
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contactName">Full Name</label>
+                <input type="text" id="contactName" placeholder="Your full name" required>
+              </div>
+              <div class="form-group">
+                <label for="contactEmail">Email Address</label>
+                <input type="email" id="contactEmail" placeholder="your@email.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="contactPhone">Phone Number</label>
+              <input type="tel" id="contactPhone" placeholder="+1 (555) 000-0000">
+            </div>
+            <div class="form-group">
+              <label for="contactSubject">Subject</label>
+              <select id="contactSubject" required>
+                <option value="">Select a subject</option>
+                <option value="reservation">Reservation Inquiry</option>
+                <option value="catering">Catering Services</option>
+                <option value="feedback">Feedback</option>
+                <option value="partnership">Partnership / Collaboration</option>
+                <option value="careers">Careers</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="contactMessage">Your Message</label>
+              <textarea id="contactMessage" rows="5" placeholder="Tell us what's on your mind..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Map -->
+  <section class="map-section">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9503398796587!2d-73.9998!3d40.7282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQzJzQxLjUiTiA3M8KwNTknNTkuMyJX!5e0!3m2!1sen!2sus!4v1234567890"
+      allowfullscreen="" loading="lazy"
+      title="UrbanBites Café Location"></iframe>
+  </section>
+
+  <!-- Follow Us Section -->
+  <section class="section section-white text-center">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>Follow Us on Social</h2>
+        <p class="subtitle">Stay connected for daily specials, behind-the-scenes content, and foodie inspiration.</p>
+        <div class="divider"></div>
+      </div>
+      <div class="social-links fade-up social-links-center social-links-lg">
+        <a href="#" aria-label="Facebook" class="social-link-alt"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram" class="social-link-alt"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Twitter" class="social-link-alt"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="TikTok" class="social-link-alt"><i class="fab fa-tiktok"></i></a>
+        <a href="#" aria-label="YouTube" class="social-link-alt"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">Urban<span>Bites</span></a>
+          <p>Serving fresh, bold, and flavorful food since 2010. Every dish is a celebration of quality ingredients and culinary passion.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul>
+            <li><a href="tel:+15551234567">+1 (555) 123-4567</a></li>
+            <li><a href="mailto:hello@urbanbitescafe.com">hello@urbanbitescafe.com</a></li>
+            <li>42 Flavor Street</li>
+            <li>Downtown, NY 10012</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Opening Hours</h4>
+          <div class="hours-item"><span>Monday - Friday</span><span>8AM - 10PM</span></div>
+          <div class="hours-item"><span>Saturday</span><span>9AM - 11PM</span></div>
+          <div class="hours-item"><span>Sunday</span><span>9AM - 11PM</span></div>
+          <div class="mt-20">
+            <a href="index.html#reservation" class="btn btn-primary btn-footer">Reserve Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 UrbanBites Café. All rights reserved.</p>
+        <p>Designed by <a href="#">SparkWeb</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/15551234567?text=Hi%20UrbanBites!%20I'd%20like%20to%20place%20an%20order."
+     class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Order via WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
