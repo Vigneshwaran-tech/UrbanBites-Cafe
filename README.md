@@ -4,9 +4,9 @@ A clean, responsive multi-page cafe website built with HTML, CSS, and JavaScript
 
 ## Preview
 
-![UrbanBites Cafe Preview](./favicon.svg)
+![UrbanBites Cafe UI Preview](./preview.png)
 
-> Tip: Replace this with a homepage screenshot later (for example: `./preview.png`) for a richer preview.
+> Preview generated from the current homepage UI (`index.html`).
 
 ## Pages
 
